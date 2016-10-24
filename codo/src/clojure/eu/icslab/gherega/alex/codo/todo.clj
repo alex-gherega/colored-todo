@@ -42,6 +42,8 @@
 (defn init [activity]
   (reset! tutils/items-map
           {:timestamp (utils/get-timestamp)})
+  (reset! tutils/next 1)
+  ;; TODO: now load the last todo-file saved: make an ordered list o timestamps and pick last
   (create-checkitems activity))
 
 (defn create [activity]
