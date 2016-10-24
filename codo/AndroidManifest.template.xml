@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="eu.icslab.gherega.alex.codo"
-          android:versionCode="{{version-code}}"
-          android:versionName="{{version-name}}" >
+          android:versionCode="1"
+          android:versionName="0.1" >
 
   <uses-sdk android:minSdkVersion="15"
-            android:targetSdkVersion="{{target-version}}" />
+            android:targetSdkVersion="18" />
   <uses-permission android:name="androd.permission.WRITE_EXTERNAL_STORAGE"/>
   <application
       android:name="neko.App"

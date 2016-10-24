@@ -66,7 +66,7 @@
                    :padding 50
                    :text ""
                    :background-drawable (res/get-drawable R$drawable/border1)
-                   :background-color (android.graphics.Color/parseColor "#fff9f9")
+                   :background-color (android.graphics.Color/parseColor "#f9f9f9")
                    ;; have used a plain string too.
                    :on-click (fn [_]
                                (.show (ui/make-dialog (*a)

@@ -56,7 +56,7 @@
             ;; Increase this value if dexer fails with OutOfMemoryException.
             :dex-opts ["-JXmx4096M" "--incremental"]
 
-            :target-version "21"
+            :target-version "18"
             :aot-exclude-ns ["clojure.parallel" "clojure.core.reducers"
                              "cider.nrepl" "cider-nrepl.plugin"
                              "cider.nrepl.middleware.util.java.parser"
