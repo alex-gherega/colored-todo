@@ -6,6 +6,7 @@ This Clojure project uses Lein-droid and Neko to create the Android app (see [wi
 
 ## utils
 This is a small Clojure project with utilities for Codo
+
 For now it only allows one to generate a border for a TextView
 
 ### License
