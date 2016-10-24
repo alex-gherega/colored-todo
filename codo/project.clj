@@ -30,11 +30,12 @@
              [:android-common
               {:target-path "target/release"
                :android
-               {;; :keystore-path "/home/user/.android/private.keystore"
-                ;; :key-alias "mykeyalias"
-                ;; :sigalg "MD5withRSA"
+               {
+                ;; :keystore-path "**"
+                ;; :key-alias "codo"
+                ;; :keypass "***"
+                ;; :storepass "***"
 
-                :use-debug-keystore true
                 :ignore-log-priority [:debug :verbose]
                 :aot :all
                 :build-type :release}}]
