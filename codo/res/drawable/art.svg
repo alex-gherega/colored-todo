@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="art.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8"
+     inkscape:cx="-308.73277"
+     inkscape:cy="764.8942"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1839"
+     inkscape:window-height="1050"
+     inkscape:window-x="81"
+     inkscape:window-y="30"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="opacity:0.98000004;fill:#2b2929;fill-opacity:1;stroke:none"
+       id="rect3004"
+       width="21.757048"
+       height="5.3183899"
+       x="-403.15656"
+       y="165.26065"
+       ry="2.0548327"
+       rx="1.8130877"
+       inkscape:export-filename="/home/alex/development/programing/clojure/droid/codo/res/drawable-hdpi/menuicon.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="opacity:0.98000004;fill:#2b2929;fill-opacity:1;stroke:none"
+       id="rect3004-3"
+       width="21.757048"
+       height="5.3183899"
+       x="-403.15656"
+       y="172.81519"
+       ry="2.0548327"
+       rx="1.8130877"
+       inkscape:export-filename="/home/alex/development/programing/clojure/droid/codo/res/drawable-hdpi/menuicon.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="opacity:0.98000004;fill:#2b2929;fill-opacity:1;stroke:none"
+       id="rect3004-6"
+       width="21.757048"
+       height="5.3183899"
+       x="-403.12027"
+       y="180.46642"
+       ry="2.0548327"
+       rx="1.8130877"
+       inkscape:export-filename="/home/alex/development/programing/clojure/droid/codo/res/drawable-hdpi/menuicon.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="opacity:0.98000004;fill:none;stroke:none"
+       id="rect3799"
+       width="26.927973"
+       height="23.694632"
+       x="-405.75711"
+       y="163.74794"
+       rx="1.5156459"
+       ry="2.0551469"
+       inkscape:export-filename="/home/alex/development/programing/clojure/droid/codo/res/drawable-hdpi/menuicon.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="opacity:0.98000004;fill:#f2f2f2;stroke:none"
+       id="path3092"
+       sodipodi:cx="-376.7869"
+       sodipodi:cy="385.6615"
+       sodipodi:rx="61.619305"
+       sodipodi:ry="61.619305"
+       d="m -315.16759,385.6615 a 61.619305,61.619305 0 1 1 -123.23861,0 61.619305,61.619305 0 1 1 123.23861,0 z"
+       transform="matrix(0.50819672,0,0,0.50819672,-203.48778,59.359915)"
+       inkscape:export-filename="/home/alex/development/programing/clojure/droid/codo/res/drawable-hdpi/add.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="opacity:0.98000004;fill:#cccccc;fill-opacity:1;stroke:none"
+       id="rect3094-3"
+       width="4.6922011"
+       height="51.966618"
+       x="252.99899"
+       y="368.60095"
+       rx="2.3461006"
+       ry="1.4653461"
+       transform="matrix(0,1,-1,0,0,0)"
+       inkscape:export-filename="/home/alex/development/programing/clojure/droid/codo/res/drawable-hdpi/add.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="opacity:0.98000004;fill:#cccccc;fill-opacity:1;stroke:none"
+       id="rect3094-3-6"
+       width="4.6922011"
+       height="51.966618"
+       x="392.8699"
+       y="-280.96042"
+       rx="2.3461006"
+       ry="1.4653461"
+       transform="scale(-1,-1)"
+       inkscape:export-filename="/home/alex/development/programing/clojure/droid/codo/res/drawable-hdpi/add.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="opacity:0.98000003999999996;fill:#b3ff80;stroke:none"
+       id="path3092-7"
+       sodipodi:cx="-376.7869"
+       sodipodi:cy="385.6615"
+       sodipodi:rx="61.619305"
+       sodipodi:ry="61.619305"
+       d="m -315.16759,385.6615 a 61.619305,61.619305 0 1 1 -123.23861,0 61.619305,61.619305 0 1 1 123.23861,0 z"
+       transform="matrix(0.50819672,0,0,0.50819672,-122.08957,67.084556)" />
+    <rect
+       style="opacity:0.98000003999999996;fill:#225500;fill-opacity:1;stroke:none"
+       id="rect3094-3-5"
+       width="4.6922011"
+       height="51.966618"
+       x="260.72363"
+       y="287.20273"
+       rx="2.3461006"
+       ry="1.4653461"
+       transform="matrix(0,1,-1,0,0,0)" />
+    <rect
+       style="opacity:0.98000003999999996;fill:#225500;fill-opacity:1;stroke:none"
+       id="rect3094-3-6-3"
+       width="4.6922011"
+       height="51.966618"
+       x="311.47168"
+       y="-288.68506"
+       rx="2.3461006"
+       ry="1.4653461"
+       transform="scale(-1,-1)" />
+  </g>
+</svg>
