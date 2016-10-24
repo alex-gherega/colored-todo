@@ -5,7 +5,7 @@ Simple Android app for training your memory and organize yourself via TODOs - it
 This Clojure project uses Lein-droid and Neko to create the Android app (see [wiki](https://github.com/alex-gherega/colored-todo/wiki))
 
 ## utils
-This is a small CLojure project with utilities for Codo
+This is a small Clojure project with utilities for Codo
 For now it only allows one to generate a border for a TextView
 
 ### License
