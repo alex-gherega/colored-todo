@@ -85,15 +85,20 @@
          (todo/create-add-button (*a))
 
          ;; TODO:
+         ;; * logo :DONE:
          ;; * scroll view - :DONE:
-         ;; * add :1 to status  to show it is visible and unchecked
          ;; * reset view - :DONE:
          ;; * click/long-click on checkboxes :DONE:
+         ;;
          ;; * top-left menu for opening todos :FOR-NEXT-RELease
+         ;; * add :1 to status  to show it is visible and unchecked
          ;; * load a todo and display it
          ;; * time/date parser for timestamp manipulation
          ;; * nicer theme
-         ;; * logo :DONE:
+
+         ;; TODO: known bugs
+         ;; * rotation resets activity and all becomes transparent
+         ;; *** solution: also reste next atom - easy
          ])
       (.setCompoundDrawablesWithIntrinsicBounds ^Button (find-view (*a) ::menu) R$drawable/menuicon 0 0 0)
       (.setCompoundDrawablesWithIntrinsicBounds ^Button (find-view (*a) (keyword (str utils/ns-qualifier "addnew"))) 0 0 0 R$drawable/add))
