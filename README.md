@@ -1,4 +1,4 @@
-<h1><img src="https://github.com/alex-gherega/colored-todo/blob/master/codo/assets/logo.png" width="30px"/>colored-todo</h1>
+<h1><img src="https://github.com/alex-gherega/colored-todo/blob/master/codo/assets/logo.png" width="50px"/>colored-todo</h1>
 Simple Android app for training your memory and organize yourself via TODOs - it's all so colorful!
 
 ## codo
