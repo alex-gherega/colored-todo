@@ -1,5 +1,5 @@
 <h1><img src="https://github.com/alex-gherega/colored-todo/blob/master/codo/assets/logo.png" width="50px"/>colored-todo</h1>
-Simple Android app for training your memory and organize yourself via TODOs - it's all so colorful!
+Simple Android [app](https://play.google.com/store/apps/details?id=eu.icslab.gherega.alex.codo) for training your memory and organize yourself via TODOs - it's all so colorful!
 
 ## codo
 This Clojure project uses Lein-droid and Neko to create the Android app (see [wiki](https://github.com/alex-gherega/colored-todo/wiki))
