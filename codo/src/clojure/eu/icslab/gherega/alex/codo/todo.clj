@@ -1,20 +1,18 @@
 (ns eu.icslab.gherega.alex.codo.todo
-  (:require [neko.activity :refer [defactivity set-content-view!]]
-            [neko.action-bar :refer [setup-action-bar tab-listener]]
-            [neko.debug :refer [*a]]
+  (:require [neko.debug :refer [*a]]
             [neko.notify :refer [toast]]
             [neko.resource :as res]
             [neko.find-view :refer [find-view]]
-            [neko.threading :refer [on-ui]]
             [neko.dialog.alert :refer [alert-dialog-builder]]
             [clojure.data.json :as json]
             [eu.icslab.gherega.alex.codo.serialization :as ser]
             [eu.icslab.gherega.alex.codo.io :as io]
             [eu.icslab.gherega.alex.codo.shapes :as shapes]
-            [eu.icslab.gherega.alex.codo.utils :as utils]
+            [eu.icslab.gherega.alex.codo.utils :refer [get-timestamp inil item-prefix make-id]]
             [eu.icslab.gherega.alex.codo.todo.utils :as tutils]
             [eu.icslab.gherega.alex.codo.todo.listeners :as listeners]
             [eu.icslab.gherega.alex.codo.todo.ui :as ui]
+            [eu.icslab.gherega.alex.codo.todo.loader :as loader]
             )
   (:import android.widget.EditText
            android.widget.TextView
@@ -27,10 +25,10 @@
 (res/import-all)
 
 (defmacro create-tv [activity idx]
-  (let [id# #(utils/make-id utils/item-prefix %)
+  (let [id# #(make-id item-prefix %)
         bg# (shapes/shape shapes/shapes)]
 
-    `(do (tutils/update-item (~id# ~idx) :info "" :status nil :shape ~bg#)
+    `(do (tutils/update-item (~id# ~idx) :info "" :status inil :shape ~bg#)
 
          (ui/make-checkitem ~activity (~id# ~idx) ~bg#))))
 
@@ -39,12 +37,25 @@
           []
           (range 1 (inc tutils/MAX-ITEMS))))
 
+
 (defn init [activity]
+  (let [td (loader/load-todo activity)]
+    (toast activity (str td) :long))
+
   (reset! tutils/items-map
-          {:timestamp (utils/get-timestamp)})
-  (reset! tutils/next 1)
+          (loader/load-todo activity)
+          ;{:timestamp (get-timestamp)}
+          )
+
   ;; TODO: now load the last todo-file saved: make an ordered list o timestamps and pick last
-  (create-checkitems activity))
+  (if (tutils/has-loaded-todo?)
+    (reset! tutils/next (tutils/infer-next))
+    (reset! tutils/next 1))
+
+  (if (tutils/has-loaded-todo?)
+    (loader/create-checkitems activity @tutils/items-map) ;; TODO:
+    (create-checkitems activity))
+  )
 
 (defn create [activity]
   ;; make a linear-layout tree

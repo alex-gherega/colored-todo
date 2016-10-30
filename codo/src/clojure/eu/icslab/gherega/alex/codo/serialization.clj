@@ -8,7 +8,7 @@
             [neko.find-view :refer [find-view]]
             [neko.threading :refer [on-ui]]
             [clojure.data.json :as json]
-            [eu.icslab.gherega.alex.codo.utils :as utils]
+            [eu.icslab.gherega.alex.codo.utils :refer [inil item-prefix make-id]]
             )
   (:import android.widget.EditText
            android.widget.TextView
@@ -16,14 +16,13 @@
            android.text.Html))
 
 (res/import-all)
-(json/write-str {:a 1 :b 2})
 ;; use files to store one CoDO list
 
 ;; each file is a JSON structured file
 
 ;; {"timestamp" : 123456789
 ;;  "items" : [{"info" : "what this item is about"
-;;              "status" : null|false|true
+;;              "status" : inil|null|false|true
 ;;              "shape" : "border3.xml"},
 ;;              {...}.
 ;;              {...},
@@ -32,7 +31,7 @@
 ;; write fns
 (defn prepare [todos-map]
   {:timestamp (:timestamp todos-map)
-   :items (reduce #(conj %1 ((utils/make-id utils/item-prefix
+   :items (reduce #(conj %1 ((make-id item-prefix
                                             %2)
                              todos-map))
                   []
@@ -52,7 +51,7 @@
 
 ;; read fns
 (defn read-json [jsn]
-  (json/read jsn :key-fn keyword))
+  (json/read-str jsn :key-fn keyword))
 
 ;; select item
 (defn select [idx items-map]
@@ -67,6 +66,7 @@
 
 (defn cond-status [s]
   (condp = s
+    inil nil
     nil true
     true false
     false nil))

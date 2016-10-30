@@ -1,15 +1,24 @@
 (ns eu.icslab.gherega.alex.codo.utils
-  ;; (:require [clojure.data.xml :as xml]
+  ;; (:require [joda-time :refer [to-millis-from-epoch
+  ;;                              date-time
+  ;;                              formatter
+  ;;                              print]]
+   ;;[clojure.data.xml :as xml]
   ;;[neko.activity :refer [defactivity set-content-view!]]
   ;;           [neko.debug :refer [*a]]
   ;;           [neko.notify :refer [toast]]
   ;;           [neko.resource :as res]
   ;;           [neko.find-view :refer [find-view]]
   ;;          [neko.threading :refer [on-ui]]
-  ;;          )
+            ;[clj-time.coerce :as time-coerce]
+            ;[clj-time.core :as time-core]
+            ;[clj-time.format :as time-format]
+;;           )
   ;; (:import android.widget.EditText
   ;;          android.widget.TextView)
 )
+
+(def inil :invisible-nil)
 
 (def item-prefix "todoitem")
 
@@ -38,7 +47,17 @@
        (keyword ns-qualifier)))
 
 (defn get-timestamp []
-  123456789)
+  123456789
+  ;; (to-millis-from-epoch (date-time))
+  )
+(defn date-time [x] (identity x))
+(defn formatter [x] nil)
+(defn print [x y] y)
+
+(defn format-timestamp [ts]
+  (let [joda-date (date-time ts)
+        formatter (formatter "yyyy/MM/dd hh:mm")]
+    (print formatter joda-date)))
 
 (defn order-todos [todos-map]
   (reduce #(conj %1 ((make-id item-prefix %2)

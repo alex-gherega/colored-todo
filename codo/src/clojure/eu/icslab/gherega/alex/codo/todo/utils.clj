@@ -7,6 +7,7 @@
             [neko.find-view :refer [find-view]]
             [neko.threading :refer [on-ui]]
             [neko.dialog.alert :refer [alert-dialog-builder]]
+            [clojure.string :refer [split]]
             [clojure.data.json :as json]
             [eu.icslab.gherega.alex.codo.io :as io]
             [eu.icslab.gherega.alex.codo.serialization :as ser]
@@ -28,16 +29,23 @@
 ;; TODO: write some management API for the items-map
 (def items-map (atom {}))
 
-(defn load-todo [activity timestamp]
-  (let [items-map (ser/read-json (io/read
-                                  activity
-                                  (str (:timestamp @items-map)
-                                       ".txt")))]
-    (apply assoc {:timestamp timestamp}
-           (map-indexed #(array-map
-                          (utils/make-id utils/item-prefix (inc %1))
-                         %2)
-                       (:items items-map)))))
+(defn has-loaded-todo? []
+  (> (-> items-map deref keys count) 1))
+
+(defn is-visible? [status]
+  (if (= status utils/inil)
+    false
+    true))
+
+(defn get-visibility [status]
+  (if (is-visible? status)
+    View/VISIBLE
+    View/INVISIBLE))
+
+(defn infer-next []
+  (inc (count (filter #(-> % val :status
+                           (not= utils/inil))
+                      (dissoc @items-map :timestamp)))))
 
 (defn write-todo [activity]
   (io/write activity

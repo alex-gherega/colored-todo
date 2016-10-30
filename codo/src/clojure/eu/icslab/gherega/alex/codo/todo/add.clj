@@ -25,4 +25,6 @@
    (swap! tutils/next inc))
 
   ([activity id]
-   (.setVisibility ^TextView (find-view activity id) View/VISIBLE)))
+   (let [next-status (-> id (tutils/extract-field :status) ser/cond-status)]
+     (tutils/update-item id :status next-status)
+     (.setVisibility ^TextView (find-view activity id) View/VISIBLE))))
