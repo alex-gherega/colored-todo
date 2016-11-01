@@ -51,7 +51,6 @@
      (load-todo activity timestamp)
      {:timestamp (utils/get-timestamp)}))
   ([activity timestamp]
-   (toast activity (str "MY TIMESTAMP2" timestamp) :long)
    (read-todo activity timestamp)))
 
 (defn make-checkitem [activity id status background]
