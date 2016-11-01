@@ -7,6 +7,7 @@
   <uses-sdk android:minSdkVersion="15"
             android:targetSdkVersion="18" />
   <uses-permission android:name="androd.permission.WRITE_EXTERNAL_STORAGE"/>
+  <uses-permission android:name="androd.permission.READ_EXTERNAL_STORAGE"/>
   <application
       android:name="neko.App"
       android:icon="@drawable/logo"

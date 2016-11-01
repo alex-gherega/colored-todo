@@ -14,9 +14,12 @@
            java.io.File))
 
 (defn get-todo-path [activity & [fname]]
-  (str (.getPath (.getExternalFilesDir activity nil))
-       "/todos/"
-       fname))
+  (let [path-444 (.getPath (.getExternalFilesDir activity nil))
+        path-420 (str (Environment/getExternalStorageDirectory)
+                  (.getPath (.getFilesDir (.getApplicationContext neko.App/instance))))]
+    (str path-444
+         "/todos/"
+         fname)))
 
 (defn write
   "Save to a public file some info; we'll use this to save our todo(s)"
@@ -38,11 +41,18 @@
            :long)
     res))
 
+(defn find-timestamps [activity]
+  (if-let [fs (->> activity get-todo-path
+                   io/file file-seq (drop 1))]
+    (lazy-seq (sort #(> (-> %1 .getName utils/get-timestamp)
+                        (-> %2 .getName utils/get-timestamp))
+                    fs))))
+
 (defn find-last
   [activity]
   "Get the path of the last seriliazed todo"
-  (if-let [f (-> activity get-todo-path io/file file-seq second)]
-    (.getName ^File f)))
+  (if-let [fs (find-timestamps activity)]
+    (-> fs first .getName)))
 
 (defn read-last
   "Read the last written todo"

@@ -28,8 +28,10 @@
     (tutils/write-todo activity)))
 
 (defn add-callback [activity id edit-text]
+  ;; update ui
+  (add/add activity)
+
+  ;; serialize
   (info-callback activity
                  (or id (tutils/make-id @tutils/next))
-                 edit-text)
-  ;; update ui
-  (add/add activity))
+                 edit-text))

@@ -75,7 +75,7 @@
 
   (doall (map #(update-item %
                             :info ""
-                            :status nil
+                            :status utils/inil
                             :shape (re-find #"border\d+" (extract-field % :shape)))
               (keys (dissoc @items-map :timestamp)))))
 

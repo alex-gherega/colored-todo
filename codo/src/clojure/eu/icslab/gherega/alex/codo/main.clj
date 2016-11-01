@@ -8,6 +8,7 @@
               [neko.find-view :refer [find-view]]
               [neko.threading :refer [on-ui]]
               [neko.dialog.alert :refer [alert-dialog-builder]]
+              [eu.icslab.gherega.alex.codo.menu :as menu]
               [eu.icslab.gherega.alex.codo.utils :as utils]
               [eu.icslab.gherega.alex.codo.serialization :as ser]
               [eu.icslab.gherega.alex.codo.todo :as todo]
@@ -60,27 +61,9 @@
                          :background-color (android.graphics.Color/parseColor "#ffffff")
                          ;:padding [50 50 50 50]
                          }
-         [:button {:id ::menu
-                   :layout-width :fill
-                   :layout-height :wrap
-                   :padding 50
-                   :text ""
-                   :background-drawable (res/get-drawable R$drawable/border1)
-                   :background-color (android.graphics.Color/parseColor "#f9f9f9")
-                   ;; have used a plain string too.
-                   :on-click (fn [_]
-                               (.show (ui/make-dialog (*a)
-                                                      "On next release:
-\n 20/11/2016"
-                                                      (fn [_ _] nil)))
-                               ;; (let [pm (PopupMenu. (*a)
-                               ;;                      (find-view (*a) ::menu))]
-                               ;;   (.inflate (.getMenuInflater pm)
-                               ;;             R$menu/popup_menu
-                               ;;             (.getMenu pm))
-                               ;;   (.show pm))
-                               )}]
 
+
+         (menu/add (*a))
          (todo/create (*a))
          (todo/create-add-button (*a))
 
@@ -91,15 +74,15 @@
          ;; * click/long-click on checkboxes :DONE:
          ;;
          ;; * top-left menu for opening todos :FOR-NEXT-RELease
-         ;; * add :1 to status  to show it is visible and unchecked
-         ;; * load a todo and display it
-         ;; * time/date parser for timestamp manipulation
+         ;; * add :invisible-nil to status  to show it is visible and unchecked :DONE:
+         ;; * load a todo and display it :DONE:
+         ;; * time/date parser for timestamp manipulation :DONE:
          ;; * nicer theme
 
          ;; TODO: known bugs
          ;; * rotation resets activity and all becomes transparent
          ;; *** solution: also reste next atom - easy
          ])
-      (.setCompoundDrawablesWithIntrinsicBounds ^Button (find-view (*a) ::menu) R$drawable/menuicon 0 0 0)
+      (.setCompoundDrawablesWithIntrinsicBounds ^Button (find-view (*a) (keyword (str utils/ns-qualifier "menu"))) R$drawable/menuicon 0 0 0)
       (.setCompoundDrawablesWithIntrinsicBounds ^Button (find-view (*a) (keyword (str utils/ns-qualifier "addnew"))) 0 0 0 R$drawable/add))
     ))

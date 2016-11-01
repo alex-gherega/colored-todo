@@ -1,8 +1,8 @@
 (ns eu.icslab.gherega.alex.codo.utils
-  ;; (:require [joda-time :refer [to-millis-from-epoch
-  ;;                              date-time
-  ;;                              formatter
-  ;;                              print]]
+   (:require [eu.icslab.gherega.alex.codo.time :refer [to-millis-from-epoch
+                               date-time
+                               formatter
+                               print]]
    ;;[clojure.data.xml :as xml]
   ;;[neko.activity :refer [defactivity set-content-view!]]
   ;;           [neko.debug :refer [*a]]
@@ -13,7 +13,7 @@
             ;[clj-time.coerce :as time-coerce]
             ;[clj-time.core :as time-core]
             ;[clj-time.format :as time-format]
-;;           )
+           )
   ;; (:import android.widget.EditText
   ;;          android.widget.TextView)
 )
@@ -46,13 +46,13 @@
        (str prefix)
        (keyword ns-qualifier)))
 
-(defn get-timestamp []
-  123456789
-  ;; (to-millis-from-epoch (date-time))
-  )
-(defn date-time [x] (identity x))
-(defn formatter [x] nil)
-(defn print [x y] y)
+(defn get-timestamp
+  ([]
+   ;;123456789
+   (to-millis-from-epoch (date-time)))
+  ([str-ts]
+   (read-string (.replace str-ts ".txt" "")))
+)
 
 (defn format-timestamp [ts]
   (let [joda-date (date-time ts)

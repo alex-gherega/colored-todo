@@ -24,8 +24,7 @@
 ;; TODO: next 2 functions should be private
 (defn get-last-ts [activity]
   (if-let [fname (io/find-last activity)]
-    (-> fname (split #"/") last
-        (.replace ".txt" "") read-string)))
+    (-> fname (split #"/") last utils/get-timestamp)))
 
 (defn prepare [item]
   (if (= (:status item) (name utils/inil))
@@ -33,6 +32,7 @@
     item))
 
 (defn read-todo [activity timestamp]
+  (toast activity (str timestamp) :long)
   (let [input (io/read
                activity
                (str timestamp ".txt"))

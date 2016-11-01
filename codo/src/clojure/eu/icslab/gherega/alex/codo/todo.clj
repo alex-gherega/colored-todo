@@ -38,24 +38,33 @@
           (range 1 (inc tutils/MAX-ITEMS))))
 
 
-(defn init [activity]
-  (let [td (loader/load-todo activity)]
-    (toast activity (str td) :long))
-
-  (reset! tutils/items-map
-          (loader/load-todo activity)
-          ;{:timestamp (get-timestamp)}
-          )
-
-  ;; TODO: now load the last todo-file saved: make an ordered list o timestamps and pick last
+(defn- init-next []
   (if (tutils/has-loaded-todo?)
     (reset! tutils/next (tutils/infer-next))
-    (reset! tutils/next 1))
+    (reset! tutils/next 1)))
 
+(defn init-checkitems [activity]
   (if (tutils/has-loaded-todo?)
     (loader/create-checkitems activity @tutils/items-map) ;; TODO:
-    (create-checkitems activity))
-  )
+    (create-checkitems activity)))
+
+(defn- init-todo [activity timestamp]
+  (reset! tutils/items-map
+          (if timestamp
+            (loader/load-todo activity timestamp)
+            (loader/load-todo activity))))
+
+(defn init [activity & [timestamp]]
+   ;; uncomment for debug!
+   ;; (let [td (loader/load-todo activity)]
+   ;;   (toast activity (str td) :long))
+
+   (init-todo activity timestamp)
+
+  ;; TODO: now load the last todo-file saved: make an ordered list o timestamps and pick last
+  (init-next)
+
+  (init-checkitems activity))
 
 (defn create [activity]
   ;; make a linear-layout tree

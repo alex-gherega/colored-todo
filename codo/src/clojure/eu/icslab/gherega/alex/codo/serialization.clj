@@ -35,7 +35,7 @@
                                             %2)
                              todos-map))
                   []
-                  (->> todos-map count dec (range 1)))})
+                  (->> todos-map count (range 1)))})
 
 (defn write-json
 

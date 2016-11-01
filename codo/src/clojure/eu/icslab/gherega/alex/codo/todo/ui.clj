@@ -33,6 +33,11 @@
              :layout-height :wrap}]))
 
 (defn make-dialog
+  ([activity message]
+   (alert-dialog-builder activity
+                         {:message message
+                          :cancelable true}))
+
   ([activity message callback]
    (alert-dialog-builder activity
                          {:message message
