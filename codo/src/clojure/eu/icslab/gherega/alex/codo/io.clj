@@ -42,8 +42,8 @@
     res))
 
 (defn find-timestamps [activity]
-  (if-let [fs (->> activity get-todo-path
-                   io/file file-seq (drop 1))]
+  (if-let [fs (seq (->> activity get-todo-path
+                        io/file file-seq (drop 1)))]
     (lazy-seq (sort #(> (-> %1 .getName utils/get-timestamp)
                         (-> %2 .getName utils/get-timestamp))
                     fs))))

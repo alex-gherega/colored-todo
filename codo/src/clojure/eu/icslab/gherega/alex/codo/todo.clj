@@ -58,8 +58,7 @@
    ;; uncomment for debug!
    ;; (let [td (loader/load-todo activity)]
    ;;   (toast activity (str td) :long))
-
-   (init-todo activity timestamp)
+  (init-todo activity timestamp)
 
   ;; TODO: now load the last todo-file saved: make an ordered list o timestamps and pick last
   (init-next)

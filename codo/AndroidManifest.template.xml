@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="eu.icslab.gherega.alex.codo"
-          android:versionCode="1"
-          android:versionName="0.1" >
+          android:versionCode="2"
+          android:versionName="0.2" >
 
-  <uses-sdk android:minSdkVersion="15"
+  <uses-sdk android:minSdkVersion="18"
             android:targetSdkVersion="18" />
   <uses-permission android:name="androd.permission.WRITE_EXTERNAL_STORAGE"/>
   <uses-permission android:name="androd.permission.READ_EXTERNAL_STORAGE"/>
