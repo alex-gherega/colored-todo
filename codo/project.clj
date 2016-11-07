@@ -12,7 +12,7 @@
   :plugins [[lein-droid "0.4.4"]]
 
   :dependencies [[org.clojure-android/clojure "1.7.0-r4"]
-                 [org.clojure/data.xml "0.1.0-beta1"]
+                 ;[org.clojure/data.xml "0.1.0-beta1"]
                  [org.clojure/data.json "0.2.6"]
                  ;;[clojure.java-time "0.2.2"] ;; for Java 8 onwords
                  [clojure.joda-time "0.6.0"] ;; for Java 7
@@ -33,13 +33,13 @@
               {:target-path "target/release"
                :android
                {
-                ;; :keystore-path "**"
-                ;; :key-alias "codo"
-                ;; :keypass "***"
-                ;; :storepass "***"
+                 :keystore-path "/home/alex/development/android/keys/codo-key/codo-release-key.jks"
+                 :key-alias "codo"
+                 :keypass "Cioc06p3nt@Casa"
+                 :storepass "Cioc06p3nt@Casa"
 
                 :ignore-log-priority [:debug :verbose]
-                :aot :all
+                :aot :all-with-unused
                 :build-type :release}}]
 
              :lean

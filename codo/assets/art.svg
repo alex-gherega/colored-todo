@@ -15,8 +15,6 @@
    version="1.1"
    inkscape:version="0.48.4 r9939"
    sodipodi:docname="art.svg">
-  <defs
-     id="defs4" />
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -24,9 +22,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.8"
-     inkscape:cx="-308.73277"
-     inkscape:cy="764.8942"
+     inkscape:zoom="0.3535534"
+     inkscape:cx="-490.00006"
+     inkscape:cy="500.38308"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -35,6 +33,164 @@
      inkscape:window-x="81"
      inkscape:window-y="30"
      inkscape:window-maximized="1" />
+  <defs
+     id="defs4">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5074">
+      <path
+         sodipodi:nodetypes="csccscc"
+         inkscape:connector-curvature="0"
+         id="path5076"
+         d="m -271.1727,-146.60373 c -1.14233,-30.76047 1.1951,-56.63808 -33.23777,-76.4489 -117.7836,-67.76633 -273.18731,1.46892 -358.7224,139.58623 -211.08242,222.88819 -78.78331,503.91951 103.88612,641.94061 69.75541,66.63031 196.8205,71.97695 230.15308,62.69995 33.57283,-9.34386 50.96803,-26.18346 51.92094,-66.58068 z"
+         style="fill:#28cb3b;fill-opacity:1;stroke:none" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5078">
+      <path
+         sodipodi:nodetypes="csccscc"
+         inkscape:connector-curvature="0"
+         id="path5080"
+         d="m -271.1727,-146.60373 c -1.14233,-30.76047 1.1951,-56.63808 -33.23777,-76.4489 -117.7836,-67.76633 -273.18731,1.46892 -358.7224,139.58623 -211.08242,222.88819 -78.78331,503.91951 103.88612,641.94061 69.75541,66.63031 196.8205,71.97695 230.15308,62.69995 33.57283,-9.34386 50.96803,-26.18346 51.92094,-66.58068 z"
+         style="fill:#28cb3b;fill-opacity:1;stroke:none" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5082">
+      <path
+         sodipodi:nodetypes="csccscc"
+         inkscape:connector-curvature="0"
+         id="path5084"
+         d="m -271.1727,-146.60373 c -1.14233,-30.76047 1.1951,-56.63808 -33.23777,-76.4489 -117.7836,-67.76633 -273.18731,1.46892 -358.7224,139.58623 -211.08242,222.88819 -78.78331,503.91951 103.88612,641.94061 69.75541,66.63031 196.8205,71.97695 230.15308,62.69995 33.57283,-9.34386 50.96803,-26.18346 51.92094,-66.58068 z"
+         style="fill:#28cb3b;fill-opacity:1;stroke:none" />
+    </clipPath>
+    <filter
+       inkscape:collect="always"
+       id="filter5179">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="23.56751"
+         id="feGaussianBlur5181" />
+    </filter>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5074-1">
+      <path
+         sodipodi:nodetypes="csccscc"
+         inkscape:connector-curvature="0"
+         id="path5076-2"
+         d="m -271.1727,-146.60373 c -1.14233,-30.76047 1.1951,-56.63808 -33.23777,-76.4489 -117.7836,-67.76633 -273.18731,1.46892 -358.7224,139.58623 -211.08242,222.88819 -78.78331,503.91951 103.88612,641.94061 69.75541,66.63031 196.8205,71.97695 230.15308,62.69995 33.57283,-9.34386 50.96803,-26.18346 51.92094,-66.58068 z"
+         style="fill:#28cb3b;fill-opacity:1;stroke:none" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5074-1-3">
+      <path
+         sodipodi:nodetypes="csccscc"
+         inkscape:connector-curvature="0"
+         id="path5076-2-1"
+         d="m -271.1727,-146.60373 c -1.14233,-30.76047 1.1951,-56.63808 -33.23777,-76.4489 -117.7836,-67.76633 -273.18731,1.46892 -358.7224,139.58623 -211.08242,222.88819 -78.78331,503.91951 103.88612,641.94061 69.75541,66.63031 196.8205,71.97695 230.15308,62.69995 33.57283,-9.34386 50.96803,-26.18346 51.92094,-66.58068 z"
+         style="fill:#28cb3b;fill-opacity:1;stroke:none" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5074-1-4">
+      <path
+         sodipodi:nodetypes="csccscc"
+         inkscape:connector-curvature="0"
+         id="path5076-2-5"
+         d="m -271.1727,-146.60373 c -1.14233,-30.76047 1.1951,-56.63808 -33.23777,-76.4489 -117.7836,-67.76633 -273.18731,1.46892 -358.7224,139.58623 -211.08242,222.88819 -78.78331,503.91951 103.88612,641.94061 69.75541,66.63031 196.8205,71.97695 230.15308,62.69995 33.57283,-9.34386 50.96803,-26.18346 51.92094,-66.58068 z"
+         style="fill:#28cb3b;fill-opacity:1;stroke:none" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5074-1-4-6">
+      <path
+         sodipodi:nodetypes="csccscc"
+         inkscape:connector-curvature="0"
+         id="path5076-2-5-1"
+         d="m -271.1727,-146.60373 c -1.14233,-30.76047 1.1951,-56.63808 -33.23777,-76.4489 -117.7836,-67.76633 -273.18731,1.46892 -358.7224,139.58623 -211.08242,222.88819 -78.78331,503.91951 103.88612,641.94061 69.75541,66.63031 196.8205,71.97695 230.15308,62.69995 33.57283,-9.34386 50.96803,-26.18346 51.92094,-66.58068 z"
+         style="fill:#28cb3b;fill-opacity:1;stroke:none" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5384">
+      <path
+         sodipodi:nodetypes="csccscc"
+         inkscape:connector-curvature="0"
+         id="path5386"
+         d="m -938.64921,-664.33293 c 0.96845,-30.76047 7.8278,-47.63096 28.17858,-76.4489 47.85552,-67.76633 204.85975,-33.40114 349.37537,112.71618 178.95313,222.88818 94.83316,542.10327 -60.03178,680.12437 -159.13779,126.63029 -240.15851,60.66329 -268.41747,51.38624 -28.46264,-9.34386 -43.21008,-26.18346 -44.01795,-66.58068 z"
+         style="fill:#1ccb3b;fill-opacity:1;stroke:none"
+         clip-path="none" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5388">
+      <path
+         sodipodi:nodetypes="csccscc"
+         inkscape:connector-curvature="0"
+         id="path5390"
+         d="m -1122.6492,193.05725 c 0.9684,30.76047 7.8278,47.63096 28.1786,76.4489 47.8555,67.76633 204.85972,33.40114 349.37534,-112.71618 178.95313,-222.88818 94.83316,-542.10327 -60.03178,-680.12437 -159.13779,-126.63029 -240.15856,-60.66329 -268.41746,-51.38624 -28.4627,9.34386 -43.2101,26.18346 -44.018,66.58068 z"
+         style="fill:#1ccb3b;fill-opacity:1;stroke:none"
+         clip-path="none" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5392">
+      <path
+         sodipodi:nodetypes="csccscc"
+         inkscape:connector-curvature="0"
+         id="path5394"
+         d="m -710.64921,-18.94274 c 0.96845,30.76047 7.8278,47.63096 28.17858,76.4489 47.85552,67.76633 204.85975,33.40114 349.37537,-112.71618 178.95313,-222.88818 94.83316,-542.10327 -60.03178,-680.12437 -159.13779,-126.63029 -240.15851,-60.66329 -268.41747,-51.38624 -28.46264,9.34386 -43.21008,26.18346 -44.01795,66.58068 z"
+         style="fill:#1ccb3b;fill-opacity:1;stroke:none"
+         clip-path="none" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5396">
+      <path
+         sodipodi:nodetypes="csccscc"
+         inkscape:connector-curvature="0"
+         id="path5398"
+         d="m -297.94999,-218.33291 c -0.96845,-30.76047 -7.8278,-47.63096 -28.17858,-76.4489 -47.85552,-67.76633 -204.85975,-33.40114 -349.37537,112.71618 -178.95313,222.88818 -94.83316,542.10327 60.03178,680.12437 159.13779,126.63029 240.15851,60.66329 268.41747,51.38624 28.46264,-9.34386 43.21008,-26.18346 44.01795,-66.58068 z"
+         style="fill:#1ccb3b;fill-opacity:1;stroke:none"
+         clip-path="none" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5400">
+      <path
+         sodipodi:nodetypes="csccscc"
+         inkscape:connector-curvature="0"
+         id="path5402"
+         d="m -289.94999,-130.33291 c -0.96845,-30.76047 -7.8278,-47.63096 -28.17858,-76.4489 -47.85552,-67.76633 -204.85975,-33.40114 -349.37537,112.71618 -178.95313,222.88818 -94.83316,542.10327 60.03178,680.12437 159.13779,126.63029 240.15851,60.66329 268.41747,51.38624 28.46264,-9.34386 43.21008,-26.18346 44.01795,-66.58068 z"
+         style="fill:#1ccb3b;fill-opacity:1;stroke:none"
+         clip-path="none" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5404">
+      <path
+         sodipodi:nodetypes="csccscc"
+         inkscape:connector-curvature="0"
+         id="path5406"
+         d="m -273.94999,-250.33291 c -0.96845,-30.76047 -7.8278,-47.63096 -28.17858,-76.4489 -47.85552,-67.76633 -204.85975,-33.40114 -349.37537,112.71618 -178.95313,222.88818 -94.83316,542.10327 60.03178,680.12437 159.13779,126.63029 240.15851,60.66329 268.41747,51.38624 28.46264,-9.34386 43.21008,-26.18346 44.01795,-66.58068 z"
+         style="fill:#1ccb3b;fill-opacity:1;stroke:none"
+         clip-path="none" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5408">
+      <path
+         sodipodi:nodetypes="csccscc"
+         inkscape:connector-curvature="0"
+         id="path5410"
+         d="m -269.73046,-146.33291 c -1.14233,-30.76047 -9.23321,-47.63096 -33.23777,-76.4489 -56.44751,-67.76633 -241.64032,-33.40114 -412.1023,112.71618 -211.08242,222.88818 -111.85953,542.10327 70.80989,680.12437 187.70943,126.63029 283.27663,60.66329 316.60921,51.38624 33.57283,-9.34386 50.96802,-26.18346 51.92094,-66.58068 z"
+         style="fill:#1ccb3b;fill-opacity:1;stroke:none"
+         clip-path="none" />
+    </clipPath>
+  </defs>
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -48,125 +204,266 @@
     </rdf:RDF>
   </metadata>
   <g
-     inkscape:label="Layer 1"
+     id="layer1"
      inkscape:groupmode="layer"
-     id="layer1">
+     inkscape:label="Layer 1">
     <rect
-       style="opacity:0.98000004;fill:#2b2929;fill-opacity:1;stroke:none"
-       id="rect3004"
-       width="21.757048"
-       height="5.3183899"
-       x="-403.15656"
-       y="165.26065"
-       ry="2.0548327"
-       rx="1.8130877"
-       inkscape:export-filename="/home/alex/development/programing/clojure/droid/codo/res/drawable-hdpi/menuicon.png"
+       style="fill:none;fill-opacity:1;stroke:none"
+       id="rect5135"
+       width="1100"
+       height="1100"
+       x="-777.37262"
+       y="-374.7261"
+       rx="3.5265088"
+       ry="2.525291"
+       inkscape:export-filename="/home/alex/development/programing/clojure/droid/colored-todo/codo/assets/logo.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
-    <rect
-       style="opacity:0.98000004;fill:#2b2929;fill-opacity:1;stroke:none"
-       id="rect3004-3"
-       width="21.757048"
-       height="5.3183899"
-       x="-403.15656"
-       y="172.81519"
-       ry="2.0548327"
-       rx="1.8130877"
-       inkscape:export-filename="/home/alex/development/programing/clojure/droid/codo/res/drawable-hdpi/menuicon.png"
+    <path
+       style="fill:#0093e2;fill-opacity:1;stroke:none"
+       d="m -782.17559,229.34863 20.57406,22.65167 305.0449,335.84906 c 87.83022,75.5075 154.70125,44.3155 216.03667,-20.5555 L 300.82239,-157.5686 c 27.67616,-74.29712 -37.86533,-111.8982 -94.16824,-85.39943 l -517.93682,625.90149 c -34.39814,25.9051 -35.38064,53.2352 -80.39321,13.638 0,0 -130.98872,-110.1642 -230.69142,-200.14766 -64.30127,-58.03299 -134.30479,8.44743 -159.80829,32.92483 z"
+       id="path4986"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccsc"
+       inkscape:export-filename="/home/alex/development/programing/clojure/droid/codo/assets/logo.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
-    <rect
-       style="opacity:0.98000004;fill:#2b2929;fill-opacity:1;stroke:none"
-       id="rect3004-6"
-       width="21.757048"
-       height="5.3183899"
-       x="-403.12027"
-       y="180.46642"
-       ry="2.0548327"
-       rx="1.8130877"
-       inkscape:export-filename="/home/alex/development/programing/clojure/droid/codo/res/drawable-hdpi/menuicon.png"
+    <path
+       sodipodi:nodetypes="csccscc"
+       inkscape:connector-curvature="0"
+       id="path3023"
+       d="m -270.37251,-146.25258 c -1.14233,-30.76047 -9.23321,-47.63096 -33.23777,-76.4489 -56.44751,-67.76633 -241.64032,-33.40114 -412.1023,112.71618 -211.08242,222.88818 -111.85953,542.10327 70.80989,680.12437 187.70943,126.63031 283.27663,60.66324 316.60921,51.38624 33.57283,-9.34386 50.96803,-26.18346 51.92094,-66.58068 z"
+       style="fill:#ffcb3b;fill-opacity:1;stroke:none"
+       clip-path="url(#clipPath5408)"
+       transform="matrix(0.84778796,0,0,1,-41.27575,0)"
+       inkscape:export-filename="/home/alex/development/programing/clojure/droid/codo/assets/logo.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
-    <rect
-       style="opacity:0.98000004;fill:none;stroke:none"
-       id="rect3799"
-       width="26.927973"
-       height="23.694632"
-       x="-405.75711"
-       y="163.74794"
-       rx="1.5156459"
-       ry="2.0551469"
-       inkscape:export-filename="/home/alex/development/programing/clojure/droid/codo/res/drawable-hdpi/menuicon.png"
+    <path
+       inkscape:connector-curvature="0"
+       style="opacity:0.98000004;fill:none;stroke:#ffffff;stroke-width:37.10094833;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:1"
+       d="m -237.884,-285.01526 c 21.515,0.71854 53.84547,6.28928 76.26115,10.41099 36.99181,6.80199 43.6497,131.56386 -3.06127,129.02702 -32.76692,9.79305 -124.79855,-2.33618 -162.82388,7.45685 -44.83875,4.77265 -37.8702,137.94405852 -3.07519,146.0144056 34.70798,9.7930304 125.62183,1.9381784 162.97843,11.7312094 47.45348,1.865708 44.2647,123.422015 2.91231,128.587035 -36.24206,9.79293 -129.5576,-2.3362 -165.80765,7.45683 -47.18681,9.41934 -30.0968,147.60376 2.21595,141.74025 37.35141,9.79303 129.80674,-4.63854 164.52515,5.15449 40.75703,-1.99459 48.37535,109.86893 -1.15559,117.51587 -38.02274,9.79293 -131.20285,4.24043 -163.98251,14.03346 -34.58472,-3.99172 -38.24728,110.81869 0.67006,121.54881 19.15371,5.28101 44.85652,10.82397 90.34304,11.31237"
+       title="t sin(3*t)"
+       id="path4405"
+       sodipodi:nodetypes="csccccccccccsc"
+       clip-path="url(#clipPath5404)"
+       transform="translate(4,104)"
+       inkscape:export-filename="/home/alex/development/programing/clojure/droid/codo/assets/logo.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       inkscape:connector-curvature="0"
+       style="opacity:0.98000004;fill:none;stroke:#ffffff;stroke-width:37.10094833;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:1"
+       d="m -547.97546,-242.51782 c 5.74297,0.28885 -23.21571,83.55661 26.28893,95.49218 21.38547,5.15605 69.9456,8.69548 78.96285,11.19242 24.75506,6.85487 29.2105,115.274297 -2.04861,112.71772 -21.9277,9.869273 -83.51551,-2.354389 -108.96218,7.514884 -30.00621,4.809804 -25.34284,129.124366 -2.05791,137.257546 23.22666,9.86926 84.06646,1.95327 109.0656,11.82253 31.75599,1.88024 29.62205,116.96266 1.94892,122.16789 -24.25328,9.86917 -86.70029,-2.35439 -110.95893,7.51488 -31.57754,9.49266 -20.14086,143.80606 1.48292,137.89689 24.99567,9.86927 86.86703,-4.67464 110.10068,5.19463 27.27472,-2.01012 32.37292,88.46367 -0.77333,96.17015 -25.44492,9.86916 -87.8013,4.27343 -109.73754,14.14271 -23.14419,-4.0228 -48.2226,111.6814 -22.17901,122.49505"
+       title="t sin(3*t)"
+       id="path4405-7"
+       sodipodi:nodetypes="cssccccccccccc"
+       clip-path="url(#clipPath5400)"
+       transform="translate(20,-16)"
+       inkscape:export-filename="/home/alex/development/programing/clojure/droid/codo/assets/logo.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       inkscape:connector-curvature="0"
+       style="opacity:0.98000004;fill:none;stroke:#ffffff;stroke-width:37.10094833;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:1"
+       d="m -774.41183,-20.406463 c 23.22666,9.869273 84.06646,1.953266 109.0656,11.8225392 31.75599,1.880239 29.62205,124.3828538 1.94892,129.5880738 -24.25328,9.86918 -86.70029,-2.35438 -110.95893,7.51489 -31.5775,9.49266 -20.14086,148.75284 1.48292,142.84368 24.99566,9.86927 86.86703,-4.67464 110.10068,5.19462 27.27471,-2.01011 32.37292,110.72425 -0.77333,118.43073 -25.44492,9.86916 -87.8013,4.27343 -109.73754,14.14271"
+       title="t sin(3*t)"
+       id="path4405-7-0"
+       sodipodi:nodetypes="cccccccc"
+       clip-path="url(#clipPath5396)"
+       transform="translate(28,72)"
+       inkscape:export-filename="/home/alex/development/programing/clojure/droid/codo/assets/logo.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:nodetypes="csccscc"
+       inkscape:connector-curvature="0"
+       id="path3023-3"
+       d="m -239.16689,-149.31949 c 0.96845,-30.76047 7.8278,-47.63096 28.17858,-76.4489 47.85552,-67.76633 204.8597495,-33.40114 349.37537,112.71618 178.95313,222.88818 94.83316,542.10327 -60.031781,680.12437 -159.13779,126.63034 -240.158509,60.66324 -268.417469,51.38624 -28.46264,-9.3439 -43.21008,-26.18346 -44.01795,-66.58068 z"
+       style="fill:#ff1b35;fill-opacity:1;stroke:none"
+       clip-path="none"
+       inkscape:export-filename="/home/alex/development/programing/clojure/droid/codo/assets/logo.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <path
        sodipodi:type="arc"
-       style="opacity:0.98000004;fill:#f2f2f2;stroke:none"
-       id="path3092"
-       sodipodi:cx="-376.7869"
-       sodipodi:cy="385.6615"
-       sodipodi:rx="61.619305"
-       sodipodi:ry="61.619305"
-       d="m -315.16759,385.6615 a 61.619305,61.619305 0 1 1 -123.23861,0 61.619305,61.619305 0 1 1 123.23861,0 z"
-       transform="matrix(0.50819672,0,0,0.50819672,-203.48778,59.359915)"
-       inkscape:export-filename="/home/alex/development/programing/clojure/droid/codo/res/drawable-hdpi/add.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <rect
-       style="opacity:0.98000004;fill:#cccccc;fill-opacity:1;stroke:none"
-       id="rect3094-3"
-       width="4.6922011"
-       height="51.966618"
-       x="252.99899"
-       y="368.60095"
-       rx="2.3461006"
-       ry="1.4653461"
-       transform="matrix(0,1,-1,0,0,0)"
-       inkscape:export-filename="/home/alex/development/programing/clojure/droid/codo/res/drawable-hdpi/add.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <rect
-       style="opacity:0.98000004;fill:#cccccc;fill-opacity:1;stroke:none"
-       id="rect3094-3-6"
-       width="4.6922011"
-       height="51.966618"
-       x="392.8699"
-       y="-280.96042"
-       rx="2.3461006"
-       ry="1.4653461"
-       transform="scale(-1,-1)"
-       inkscape:export-filename="/home/alex/development/programing/clojure/droid/codo/res/drawable-hdpi/add.png"
+       style="opacity:0.98000004;fill:none;stroke:#ffffff;stroke-width:67.66217804;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:1"
+       id="path4651-3-6-2"
+       sodipodi:cx="-687.91388"
+       sodipodi:cy="-443.67374"
+       sodipodi:rx="211.12189"
+       sodipodi:ry="211.12189"
+       d="M -476.79199,-443.67374 A 211.12189,211.12189 0 1 1 -795.19522,-625.50653"
+       sodipodi:start="0"
+       sodipodi:end="4.1793549"
+       sodipodi:open="true"
+       transform="matrix(0.33112348,-0.31488106,-0.31488106,-0.33112348,112.71974,-302.49967)"
+       inkscape:export-filename="/home/alex/development/programing/clojure/droid/codo/assets/logo.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <path
        sodipodi:type="arc"
-       style="opacity:0.98000003999999996;fill:#b3ff80;stroke:none"
-       id="path3092-7"
-       sodipodi:cx="-376.7869"
-       sodipodi:cy="385.6615"
-       sodipodi:rx="61.619305"
-       sodipodi:ry="61.619305"
-       d="m -315.16759,385.6615 a 61.619305,61.619305 0 1 1 -123.23861,0 61.619305,61.619305 0 1 1 123.23861,0 z"
-       transform="matrix(0.50819672,0,0,0.50819672,-122.08957,67.084556)" />
-    <rect
-       style="opacity:0.98000003999999996;fill:#225500;fill-opacity:1;stroke:none"
-       id="rect3094-3-5"
-       width="4.6922011"
-       height="51.966618"
-       x="260.72363"
-       y="287.20273"
-       rx="2.3461006"
-       ry="1.4653461"
-       transform="matrix(0,1,-1,0,0,0)" />
-    <rect
-       style="opacity:0.98000003999999996;fill:#225500;fill-opacity:1;stroke:none"
-       id="rect3094-3-6-3"
-       width="4.6922011"
-       height="51.966618"
-       x="311.47168"
-       y="-288.68506"
-       rx="2.3461006"
-       ry="1.4653461"
-       transform="scale(-1,-1)" />
+       style="opacity:0.98000004;fill:none;stroke:#ffffff;stroke-width:67.66217804;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:1"
+       id="path4651-3-6-2-6"
+       sodipodi:cx="-687.91388"
+       sodipodi:cy="-443.67374"
+       sodipodi:rx="211.12189"
+       sodipodi:ry="211.12189"
+       d="M -476.79199,-443.67374 A 211.12189,211.12189 0 1 1 -795.19522,-625.50653"
+       sodipodi:start="0"
+       sodipodi:end="4.1793549"
+       sodipodi:open="true"
+       transform="matrix(0.35436312,0.2884781,-0.2884781,0.35436312,138.90007,713.83255)"
+       inkscape:export-filename="/home/alex/development/programing/clojure/droid/codo/assets/logo.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="opacity:0.98000004;fill:none;stroke:#ffffff;stroke-width:99.05913544;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:1"
+       id="path4651-3-8"
+       sodipodi:cx="-687.91388"
+       sodipodi:cy="-443.67374"
+       sodipodi:rx="211.12189"
+       sodipodi:ry="211.12189"
+       d="M -609.48864,-247.6586 A 211.12189,211.12189 0 0 1 -897.81545,-421.00701"
+       sodipodi:start="1.1902056"
+       sodipodi:end="3.0340221"
+       transform="matrix(0.31211112,0,0,0.31211112,228.3321,-48.763905)"
+       sodipodi:open="true"
+       inkscape:export-filename="/home/alex/development/programing/clojure/droid/codo/assets/logo.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="opacity:0.98000004;fill:none;stroke:#ffffff;stroke-width:56.55958176;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:1"
+       id="path4651-3-6-2-9"
+       sodipodi:cx="-687.91388"
+       sodipodi:cy="-443.67374"
+       sodipodi:rx="211.12189"
+       sodipodi:ry="211.12189"
+       d="m -476.79199,-443.67374 a 211.12189,211.12189 0 0 1 -415.45418,53.11091"
+       sodipodi:start="0"
+       sodipodi:end="2.8872956"
+       sodipodi:open="true"
+       transform="matrix(0.10428631,0.58806459,0.58806459,-0.10428631,394.95839,572.34085)"
+       inkscape:export-filename="/home/alex/development/programing/clojure/droid/codo/assets/logo.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="opacity:0.98000004;fill:none;stroke:#ffffff;stroke-width:104.03851318;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:1"
+       id="path4930"
+       sodipodi:cx="-1358"
+       sodipodi:cy="422.36218"
+       sodipodi:rx="354"
+       sodipodi:ry="354"
+       d="m -1175.4557,725.6666 a 354,354 0 1 1 -362.429,-608.19374"
+       sodipodi:start="1.0290163"
+       sodipodi:end="4.1793549"
+       sodipodi:open="true"
+       transform="matrix(-0.24996777,-0.14375178,0.14375178,-0.24996777,-597.06173,-163.59233)"
+       inkscape:export-filename="/home/alex/development/programing/clojure/droid/codo/assets/logo.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="opacity:0.98000004;fill:none;stroke:#ffffff;stroke-width:103.53688812;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:1"
+       id="path4930-2"
+       sodipodi:cx="-1358"
+       sodipodi:cy="422.36218"
+       sodipodi:rx="354"
+       sodipodi:ry="354"
+       d="m -1175.4557,725.6666 a 354,354 0 1 1 -362.429,-608.19374"
+       sodipodi:start="1.0290163"
+       sodipodi:end="4.1793549"
+       sodipodi:open="true"
+       transform="matrix(-0.25117884,-0.14444825,0.14444825,-0.25117884,-596.05808,112.29329)"
+       inkscape:export-filename="/home/alex/development/programing/clojure/droid/codo/assets/logo.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="opacity:0.98000004;fill:none;stroke:#ffffff;stroke-width:110.77236176;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:1"
+       id="path4930-2-2"
+       sodipodi:cx="-1358"
+       sodipodi:cy="422.36218"
+       sodipodi:rx="354"
+       sodipodi:ry="354"
+       d="m -1175.4557,725.6666 a 354,354 0 1 1 -362.429,-608.19374"
+       sodipodi:start="1.0290163"
+       sodipodi:end="4.1793549"
+       sodipodi:open="true"
+       transform="matrix(-0.23477224,-0.13501312,0.13501312,-0.23477224,-561.51462,390.2314)"
+       inkscape:export-filename="/home/alex/development/programing/clojure/droid/codo/assets/logo.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="opacity:0.98000004;fill:none;stroke:#ffffff;stroke-width:99.05913544;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:1"
+       id="path4651-3-8-8"
+       sodipodi:cx="-687.91388"
+       sodipodi:cy="-443.67374"
+       sodipodi:rx="211.12189"
+       sodipodi:ry="211.12189"
+       d="M -609.48864,-247.6586 A 211.12189,211.12189 0 0 1 -897.81545,-421.00701"
+       sodipodi:start="1.1902056"
+       sodipodi:end="3.0340221"
+       transform="matrix(0.29131069,-0.11203319,-0.11203319,-0.29131069,139.14091,390.82524)"
+       sodipodi:open="true"
+       inkscape:transform-center-y="32"
+       inkscape:export-filename="/home/alex/development/programing/clojure/droid/codo/assets/logo.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#00b6e2;fill-opacity:1;stroke:none"
+       d="m 10581.253,1236.5606 245.838,270.663 c 66.31,57.0071 116.797,33.4576 163.104,-15.519 l 536.832,-664.70951 c 20.895,-56.0933 -28.588,-84.4816 -71.096,-64.4754 l -519.16,589.99521 c -25.971,19.558 -26.712,40.1919 -60.696,10.2965 0,0 -98.895,-83.1723 -174.169,-151.1086 -48.547,-43.8142 -101.398,6.3776 -120.653,24.8578 z"
+       id="path4986-3"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccsc" />
+    <path
+       inkscape:connector-curvature="0"
+       style="opacity:0.98000004;fill:none;stroke:#ffffff;stroke-width:37.10094833;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:1"
+       d="m -774.41183,-45.862307 c 55.75357,22.597195 78.40961,23.166469 103.40875,33.035743 31.75599,1.880239 35.2789,128.625494 7.60577,133.830714 -24.25328,9.86918 -86.70029,-2.35438 -110.95893,7.51489 -31.5775,9.49266 -20.14086,148.75284 1.48292,142.84368 24.99566,9.86927 86.86703,-4.67464 110.10068,5.19462 27.27471,-2.01011 32.37292,110.72425 -0.77333,118.43073 -25.44492,9.86916 -87.8013,4.27343 -109.73754,14.14271"
+       title="t sin(3*t)"
+       id="path4405-7-0-9-0-0"
+       sodipodi:nodetypes="cccccccc"
+       clip-path="url(#clipPath5384)"
+       transform="matrix(-1,0,0,1,-1208.5992,518.00002)"
+       inkscape:export-filename="/home/alex/development/programing/clojure/droid/codo/assets/logo.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="opacity:0.66089962;fill:#00ffe2;fill-opacity:1;stroke:none;filter:url(#filter5179)"
+       d="m -780.81595,223.02358 325.6189,358.50073 c 87.8303,75.5075 154.7013,44.3155 216.0367,-20.5555 l 541.3424,-724.86246 c 27.6761,-74.29712 -37.8653,-111.8982 -94.1683,-85.39943 l -517.9368,625.90149 c -34.3981,25.9051 -35.3806,53.2352 -80.3932,13.638 0,0 -130.9887,-110.1642 -230.6914,-200.14765 -64.3013,-58.03299 -134.3048,8.44743 -159.8083,32.92482 z"
+       id="path4986-6"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccsc"
+       inkscape:export-filename="/home/alex/development/programing/clojure/droid/codo/assets/logo.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       inkscape:connector-curvature="0"
+       style="opacity:0.98000004;fill:none;stroke:#ffffff;stroke-width:37.10094833;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:1"
+       d="m -774.41183,-20.406463 c 23.22666,9.869273 84.06646,1.953266 109.0656,11.8225392 31.75599,1.880239 29.62205,124.3828538 1.94892,129.5880738 -24.25328,9.86918 -86.70029,-2.35438 -110.95893,7.51489 -31.5775,9.49266 -20.14086,148.75284 1.48292,142.84368 24.99566,9.86927 86.86703,-4.67464 110.10068,5.19462 27.27471,-2.01011 32.37292,110.72425 -0.77333,118.43073 -25.44492,9.86916 -87.8013,4.27343 -109.73754,14.14271"
+       title="t sin(3*t)"
+       id="path4405-7-0-9"
+       sodipodi:nodetypes="cccccccc"
+       clip-path="url(#clipPath5392)"
+       transform="matrix(-1,0,0,-1,-980.5992,-165.27565)"
+       inkscape:export-filename="/home/alex/development/programing/clojure/droid/codo/assets/logo.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       inkscape:connector-curvature="0"
+       style="opacity:0.98000004;fill:none;stroke:#ffffff;stroke-width:37.10094833;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:1"
+       d="m -774.41183,-20.406463 c 23.22666,9.869273 84.06646,1.953266 109.0656,11.8225392 31.75599,1.880239 29.62205,124.3828538 1.94892,129.5880738 -24.25328,9.86918 -86.70029,-2.35438 -110.95893,7.51489 -31.5775,9.49266 -20.14086,148.75284 1.48292,142.84368 24.99566,9.86927 86.86703,-4.67464 110.10068,5.19462 27.27471,-2.01011 32.37292,110.72425 -0.77333,118.43073 -25.44492,9.86916 -87.8013,4.27343 -109.73754,14.14271"
+       title="t sin(3*t)"
+       id="path4405-7-0-9-0"
+       sodipodi:nodetypes="cccccccc"
+       clip-path="url(#clipPath5388)"
+       transform="matrix(-1,0,0,-1,-1392.5992,46.72434)"
+       inkscape:export-filename="/home/alex/development/programing/clojure/droid/codo/assets/logo.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
   </g>
 </svg>
