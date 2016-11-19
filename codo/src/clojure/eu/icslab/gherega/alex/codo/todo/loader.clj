@@ -32,7 +32,7 @@
     item))
 
 (defn read-todo [activity timestamp]
-  (toast activity (str timestamp) :long)
+  ;; (toast activity (str timestamp) :long) ;; uncomment for DEBUG
   (let [input (io/read
                activity
                (str timestamp ".txt"))

@@ -1,8 +1,6 @@
 (ns eu.icslab.gherega.alex.codo.todo.listeners
-  (:require [neko.activity :refer [defactivity set-content-view!]]
-            [neko.action-bar :refer [setup-action-bar tab-listener]]
-            [neko.debug :refer [*a]]
-            [neko.notify :refer [toast]]
+  (:require [neko.debug :refer [*a]]
+            ; [neko.notify :refer [toast]]
             [neko.resource :as res]
             [neko.find-view :refer [find-view]]
             [neko.threading :refer [on-ui]]
@@ -42,15 +40,17 @@
 (defn on-long-click [activity _]
   (tutils/reset-todo activity)
   (ui/reset-ui activity)
-  (toast activity (str "wait a bit .." activity) :long)
+  ;; unccoment for DEBUG
+  ;(toast activity (str "wait a bit .." activity) :long)
   true)
 
 (defn todo-onclick [activity id _]
-  (toast (str  "shot click " id " "
-               (tutils/extract-field id :shape)
-               " "
-               (-> id (tutils/extract-field :status) ser/cond-status)
-               ) :long)
+  ;; uncomment for DEBUG
+  ;; (toast (str  "shot click " id " "
+  ;;              (tutils/extract-field id :shape)
+  ;;              " "
+  ;;              (-> id (tutils/extract-field :status) ser/cond-status)
+  ;;              ) :long)
   (let [current-shape (tutils/extract-field id :shape)
         next-shape (ser/cond-shape current-shape)
         next-status (-> id (tutils/extract-field :status) ser/cond-status)]
@@ -62,8 +62,9 @@
     true))
 
 (defn todo-on-longclick [activity id _]
-  (toast (str  "long lcikc " id
-               " " (tutils/extract-field id :info)) :long)
+  ;; unccoment for DEBUG
+  ;; (toast (str  "long lcikc " id
+  ;;              " " (tutils/extract-field id :info)) :long)
 
   (on-click activity
             id

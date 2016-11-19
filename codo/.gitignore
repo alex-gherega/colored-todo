@@ -9,3 +9,4 @@ pom.xml.asc
 keystore.jpg
 /.lein-*
 /.nrepl-port
+/.passes

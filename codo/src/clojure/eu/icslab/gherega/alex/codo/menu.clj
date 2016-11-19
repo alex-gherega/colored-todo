@@ -1,9 +1,8 @@
 (ns eu.icslab.gherega.alex.codo.menu
-  (:require [neko.activity :refer [defactivity set-content-view!]]
-            [neko.action-bar :refer [setup-action-bar tab-listener]]
+  (:require [neko.activity :refer [set-content-view!]]
             [neko.ui :refer [make-ui]]
             [neko.debug :refer [*a]]
-            [neko.notify :refer [toast]]
+            ;[neko.notify :refer [toast]]
             [neko.resource :as res]
             [neko.find-view :refer [find-view]]
             [neko.threading :refer [on-ui]]
@@ -71,6 +70,7 @@
         ts-format (utils/format-timestamp ts)]
     [:text-view {:text ts-format
                  :id ts
+                 :padding [50 50 50 50]
                  :background-color (android.graphics.Color/parseColor "#ffffff")
                  :text-color (android.graphics.Color/parseColor "#afafaf")
                  :on-click (tv-entry-click activity ts)}]))
@@ -82,7 +82,7 @@
                             :layout-height :match-parent
                             :gravity :center-horizontal
                             :background-color (android.graphics.Color/parseColor "#ffffff")
-                                        ;:padding [50 50 50 50]
+                            ;:padding [50 50 50 50]
                             }
 
             [:scroll-view {:layout-width :match-parent
@@ -95,6 +95,7 @@
                                     :layout-width :match-parent
                                     :layout-height :match-parent
                                     :gravity :center-horizontal
+                                    ;:padding [50 50 50 50]
                                     :background-color (android.graphics.Color/parseColor "#ffffff")}]
                    (reduce #(conj %1
                                   (make-tv-entry activity
@@ -119,15 +120,4 @@
                                         ;:background-drawable (res/get-drawable R$drawable/border1)
             :background-color (android.graphics.Color/parseColor "#f9f9f9")
             ;; have used a plain string too.
-            :on-click (fn [_]
-                        (.show (ui/make-dialog activity
-                                               "On next release:
-\n 20/11/2016"
-                                               (fn [_ _] (make-tves activity))))
-                        ;; (let [pm (PopupMenu. (*a)
-                        ;;                      (find-view (*a) ::menu))]
-                        ;;   (.inflate (.getMenuInflater pm)
-                        ;;             R$menu/popup_menu
-                        ;;             (.getMenu pm))
-                        ;;   (.show pm))
-                        )}])
+            :on-click (fn [_] (make-tves activity))}])

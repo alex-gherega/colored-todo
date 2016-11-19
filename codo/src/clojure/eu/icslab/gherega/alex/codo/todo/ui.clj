@@ -1,10 +1,8 @@
 (ns eu.icslab.gherega.alex.codo.todo.ui
-  (:require [neko.activity :refer [defactivity set-content-view!]]
-            [neko.ui :refer [make-ui]]
+  (:require [neko.ui :refer [make-ui]]
             [neko.-utils :refer [app-package-name]]
-            [neko.action-bar :refer [setup-action-bar tab-listener]]
             [neko.debug :refer [*a]]
-            [neko.notify :refer [toast]]
+            ;[neko.notify :refer [toast]]
             [neko.resource :as res]
             [neko.find-view :refer [find-view]]
             [neko.threading :refer [on-ui]]

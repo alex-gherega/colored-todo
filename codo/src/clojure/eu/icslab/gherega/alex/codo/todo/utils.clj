@@ -1,8 +1,6 @@
 (ns eu.icslab.gherega.alex.codo.todo.utils
-  (:require [neko.activity :refer [defactivity set-content-view!]]
-            [neko.action-bar :refer [setup-action-bar tab-listener]]
-            [neko.debug :refer [*a]]
-            [neko.notify :refer [toast]]
+  (:require [neko.debug :refer [*a]]
+            ;[neko.notify :refer [toast]]
             [neko.resource :as res]
             [neko.find-view :refer [find-view]]
             [neko.threading :refer [on-ui]]
@@ -12,8 +10,7 @@
             [eu.icslab.gherega.alex.codo.io :as io]
             [eu.icslab.gherega.alex.codo.serialization :as ser]
             [eu.icslab.gherega.alex.codo.shapes :as shapes]
-            [eu.icslab.gherega.alex.codo.utils :as utils]
-            )
+            [eu.icslab.gherega.alex.codo.utils :as utils])
   (:import android.widget.EditText
            android.widget.TextView
            android.view.View

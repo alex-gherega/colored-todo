@@ -1,9 +1,7 @@
 (ns eu.icslab.gherega.alex.codo.serialization
-  (:require [neko.activity :refer [defactivity set-content-view!]]
-            [neko.action-bar :refer [setup-action-bar tab-listener]]
-            [neko.-utils :refer [app-package-name]]
+  (:require [neko.-utils :refer [app-package-name]]
             [neko.debug :refer [*a]]
-            [neko.notify :refer [toast]]
+            ;[neko.notify :refer [toast]]
             [neko.resource :as res]
             [neko.find-view :refer [find-view]]
             [neko.threading :refer [on-ui]]

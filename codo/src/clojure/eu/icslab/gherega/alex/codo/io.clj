@@ -28,8 +28,9 @@
         res (io/make-parents message)]
     (spit message
           json)
-    (toast (str "Writing this todo to: " fname)
-           :long)))
+    ;; (toast (str "Writing this todo to: " fname)
+    ;;        :long)
+    ))
 
 (defn read
   "Read a json like todo from a file"
@@ -37,8 +38,9 @@
   (let [message (get-todo-path activity fname)
         res (slurp message)
         ]
-    (toast (str "Reading the todo from: " fname)
-           :long)
+    ;; uncomment for DEBUG
+    ;; (toast (str "Reading the todo from: " fname)
+    ;;        :long)
     res))
 
 (defn find-timestamps [activity]
