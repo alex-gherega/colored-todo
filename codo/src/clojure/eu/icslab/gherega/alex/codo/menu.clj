@@ -1,7 +1,7 @@
 (ns eu.icslab.gherega.alex.codo.menu
   (:require [neko.activity :refer [set-content-view!]]
             [neko.ui :refer [make-ui]]
-            [neko.debug :refer [*a]]
+            [neko.debug :refer [*a safe-for-ui]]
             ;[neko.notify :refer [toast]]
             [neko.resource :as res]
             [neko.find-view :refer [find-view]]
@@ -12,6 +12,7 @@
             [eu.icslab.gherega.alex.codo.todo :as todo]
             [eu.icslab.gherega.alex.codo.todo.ui :as ui]
             [eu.icslab.gherega.alex.codo.todo.utils :as tutils]
+            [eu.icslab.gherega.alex.codo.todo.callbacks :refer [rm-callback]]
             )
   (:import android.widget.EditText
            android.widget.TextView
@@ -22,6 +23,7 @@
 
 (def menu-view (atom nil))
 (declare add)
+(declare make-tves)
 
 (defn tv-entry-click [activity ts]
   (fn [_]
@@ -63,7 +65,23 @@
       (.setCompoundDrawablesWithIntrinsicBounds ^Button (find-view activity (keyword (str utils/ns-qualifier "menu"))) R$drawable/menuicon 0 0 0)
       (.setCompoundDrawablesWithIntrinsicBounds ^Button (find-view activity (keyword (str utils/ns-qualifier "addnew"))) 0 0 0 R$drawable/add))
     (-> menu-view deref .dismiss)
-    (reset! menu-view nil)))
+    (reset! menu-view nil)
+    true))
+
+(defn- tv-entry-long-click [activity ts]
+  (fn [_]
+    ;; TODO: if RES is Ok then one should reload the load a TODO: dialog
+    ;;       This requires to first close the initial dialog and then recall
+    ;;       make-tves: DONE
+    (-> (ui/make-dialog activity
+                        (str "Remove CoDo " (utils/format-timestamp ts)
+                             "?\n(press Back to cancel)")
+                        (fn [dialog res]
+                          (rm-callback activity ts)
+                          (on-ui (make-tves activity))))
+        .show)
+    (.dismiss @menu-view)
+    true))
 
 (defn make-tv-entry [activity fname]
   (let [ts (utils/get-timestamp fname)
@@ -73,7 +91,8 @@
                  :padding [50 50 50 50]
                  :background-color (android.graphics.Color/parseColor "#ffffff")
                  :text-color (android.graphics.Color/parseColor "#afafaf")
-                 :on-click (tv-entry-click activity ts)}]))
+                 :on-click (tv-entry-click activity ts)
+                 :on-long-click (tv-entry-long-click activity ts)}]))
 
 (defn make-tves-layout [activity]
   (make-ui activity
